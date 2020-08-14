@@ -13,7 +13,7 @@ while base_num == "":
     try:
         base_num = int(input("Base Number: "))
         exponent = int(input("Exponent: "))
-    except:
+    except ValueError:
         print("*sigh* don't act up")
 
 
